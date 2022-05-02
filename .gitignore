@@ -37,6 +37,10 @@ lerna-debug.log*
 # version
 .envrc
 .nvmrc
+.local.env
 
 # eslint
 .eslintcache
+
+# credentials
+clean-bindery-220507-firebase-adminsdk-bedn1-dc4590e246.json
