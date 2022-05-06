@@ -23,5 +23,5 @@ $ npx dotenv -e .local.env -- ts-node src/scripts/updateParticipantTaskStatus.ts
 **ユーザーの課題ステータス一覧を見たい場合**
 
 ```shell
-$ npx dotenv -e .local.env -- ts-node src/scripts/usersQuestionList.ts --list <UserId1>,<UserId2>
+$ npx dotenv -e .local.env -- ts-node src/scripts/getUsersQuestionList.ts --list <UserId1>,<UserId2>
 ```
