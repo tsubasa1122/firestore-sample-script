@@ -6,7 +6,7 @@
   "author": "tsubasa <tsubasan1122@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "dev": "dotenv -e .local.env -- ts-node src/scripts/updateParticipantTaskStatus.ts"
+    "dev": "dotenv -e .local.env -- ts-node src/scripts/updateParticipantTaskStatus.ts 9Bw2kvcWStw1ZoUeee8F Q1r09smix8XlL4u8aDb7"
   },
   "devDependencies": {
     "@types/node": "^17.0.30",
