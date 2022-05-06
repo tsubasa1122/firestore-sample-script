@@ -16,6 +16,12 @@ $ yarn
 
 **ユーザーの課題のステータスを更新したい場合**
 
-```
+```shell
 $ npx dotenv -e .local.env -- ts-node src/scripts/updateParticipantTaskStatus.ts <UserId> <QuestionId>
+```
+
+**ユーザーの課題ステータス一覧を見たい場合**
+
+```shell
+$ npx dotenv -e .local.env -- ts-node src/scripts/usersQuestionList.ts --list <UserId1>,<UserId2>
 ```
