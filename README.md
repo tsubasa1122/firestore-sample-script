@@ -31,3 +31,9 @@ $ npx dotenv -e .local.env -- ts-node src/scripts/getUsersQuestionList.ts --list
 ```shell
 $ npx dotenv -e .local.env -- ts-node src/scripts/updateQuestion.ts --id <QuestionId> --title <Title> --description <Description>
 ```
+
+**課題を削除したい場合**
+
+```shell
+$ npx dotenv -e .local.env -- ts-node src/scripts/deleteQuestion.ts <QuestionId>
+```
