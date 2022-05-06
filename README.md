@@ -25,3 +25,9 @@ $ npx dotenv -e .local.env -- ts-node src/scripts/updateParticipantTaskStatus.ts
 ```shell
 $ npx dotenv -e .local.env -- ts-node src/scripts/getUsersQuestionList.ts --list <UserId1>,<UserId2>
 ```
+
+**課題を更新したい場合**
+
+```shell
+$ npx dotenv -e .local.env -- ts-node src/scripts/updateQuestion.ts --id <QuestionId> --title <Title> --description <Description>
+```
