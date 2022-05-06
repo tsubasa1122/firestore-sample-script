@@ -5,9 +5,6 @@
   "repository": "https://github.com/tsubasa1122/firestore-sample-script.git",
   "author": "tsubasa <tsubasan1122@gmail.com>",
   "license": "MIT",
-  "scripts": {
-    "dev": "dotenv -e .local.env -- ts-node src/scripts/updateParticipantTaskStatus.ts 9Bw2kvcWStw1ZoUeee8F Q1r09smix8XlL4u8aDb7"
-  },
   "devDependencies": {
     "@types/node": "^17.0.30",
     "@typescript-eslint/eslint-plugin": "^5.21.0",
